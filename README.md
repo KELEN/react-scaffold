@@ -1,6 +1,6 @@
 # react-scaffold
 
-使用 create-react-app 创建的基础项目，新增了 `react-router-dom```
+使用 create-react-app 创建的基础项目，新增了 ```react-router-dom```，```react-router```，```react-redux```，```rect-intl```，```styled-components```
 
 # react-router-dom
 
@@ -18,6 +18,10 @@ react样式库
 
 响应式框架
 
+# react-intl
+
+国际化
+
 # project structure
 
 ```
@@ -33,4 +37,11 @@ react样式库
     |- index.js             // app entry
     |- store.js             // store entry
 |- public
+```
+
+# 启动
+
+```
+npm i
+npm run start
 ```

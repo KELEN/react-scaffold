@@ -2,27 +2,31 @@
 
 使用 create-react-app 创建的基础项目，新增了 ```react-router-dom```，```react-router```，```react-redux```，```rect-intl```，```styled-components```
 
-# react-router-dom
+# (react-router-dom)[https://github.com/ReactTraining/react-router#readme]
 
-react路由
+react路由绑定到dom元素
 
-# react-redux
+# (react-redux)[https://github.com/reduxjs/react-redux]
 
 react的状态管理库
 
-# styled-components
+# (styled-components)[https://www.styled-components.com/]
 
-react样式库
+css in js解决方案，通过 js 赋能解决了原生 css 所不具备的能力，比如变量、循环、函数等
 
-# react-bootstrap
+# (antd)[https://ant.design/docs/react/use-with-create-react-app-cn]
 
-响应式框架
+ui组件库
 
-# react-intl
+# (react-app-rewired)[https://github.com/timarney/react-app-rewired/]
+
+一个对 create-react-app 进行自定义配置的社区解决方案
+
+# (react-intl)[https://github.com/yahoo/react-intl]
 
 国际化
 
-# project structure
+# project structurem
 
 ```
 |- src

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Row, Col } from 'antd'
 import { FormattedMessage } from 'react-intl'
 import styled, { css } from 'styled-components'
 
@@ -21,7 +21,7 @@ const Button = styled.button`
 class Home extends Component {
   render() {
     return (
-      <Container className="yzw-container">
+      <div className="yzw-container">
         <FormattedMessage id="intl.intlLanguageLabel" />: <FormattedMessage id="intl.HOME" />
         <Row>
           <Col sm={8}>
@@ -34,7 +34,7 @@ class Home extends Component {
         <header className="App-header">
           { this.props.houseList }
         </header>
-      </Container>
+      </div>
     );
   }
 }

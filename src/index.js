@@ -7,9 +7,7 @@ import store from './store'
 import { BrowserRouter } from 'react-router-dom'
 import { connect } from 'react-redux'
 import MainLayout from './containers/Layout/Layout'
-// bootstrap css
-import './styles/bootstrap.min.css'
-import './styles/bootstrap-theme.min.css'
+
 import GlobalStyle from './styles/global'
 
 import * as serviceWorker from './serviceWorker'

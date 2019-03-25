@@ -7,6 +7,7 @@ import store from './store'
 import { BrowserRouter } from 'react-router-dom'
 import { connect } from 'react-redux'
 import MainLayout from './containers/Layout/Layout'
+import { hot } from 'react-hot-loader'
 
 import GlobalStyle from './styles/global'
 
@@ -37,12 +38,18 @@ const mapStateToProps = ({ language }) => ({
 // connect state to container component
 const IndexWrap = connect(mapStateToProps)(Index)
 
-ReactDOM.render(
-  <Provider store={ store }>
-    <IndexWrap />
-  </Provider>
-  , document.getElementById('root')
-);
+const render = () => {
+  ReactDOM.render(
+    <Provider store={ store }>
+      <IndexWrap />
+    </Provider>
+    , document.getElementById('root')
+  );
+}
+
+render();
+
+hot(module)(render)
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
